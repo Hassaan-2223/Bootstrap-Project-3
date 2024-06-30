@@ -1,0 +1,53 @@
+body{
+    background: #333 !important;
+    color: #fff !important;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border-bottom: 3px solid #0083d6;
+    opacity: 0.8;
+}
+
+
+#Home{
+    background: url(./img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#Home .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+#Home .home-inner{
+    padding-top: 150px;
+}
+.row i{
+    color: #0083d6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#Explore i{
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+#Share i{
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
